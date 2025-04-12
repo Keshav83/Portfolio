@@ -1,0 +1,570 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Montserrat:wght@700;800&display=swap" rel="stylesheet">
+    <!-- AOS Animation Library -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">Portfolio</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <i class="fas fa-bars"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#education">Education</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container h-100">
+            <div class="row h-100 align-items-center">
+                <div class="col-lg-7" data-aos="fade-right">
+                    <span class="display-3 fw-bold">Hello, I'm Keshav</span>
+                    <h1 class="display-3 fw-bold">Pre Final Year B.Tech Student</h1>
+                    <h2 class="typed-text">at IIT Ropar</h2>
+                    <p class="lead my-4">I specialize in web development, data structures</p>
+                    <div class="hero-buttons">
+                        <a href="#contact" class="btn btn-outline-dark me-3">Contact Me</a>
+                        <a href="resume.pdf" download class="btn btn-primary me-1">Download CV</a>
+                    </div>
+                </div>
+                <div class="col-lg-5 d-none d-lg-block" data-aos="fade-left">
+                    <div class="hero-image">
+                       
+                        <div class="hero-shape">
+                            <img src="profile.jpg" class="hero-shape" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="hero-wave">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+                <path fill="#ffffff" fill-opacity="1" d="M0,192L48,176C96,160,192,128,288,122.7C384,117,480,139,576,165.3C672,192,768,224,864,224C960,224,1056,192,1152,186.7C1248,181,1344,203,1392,213.3L1440,224L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path>
+            </svg>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-5">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up">About Me</h2>
+            <div class="row">
+                <div class="col-lg-8 mx-auto" data-aos="fade-up" data-aos-delay="200">
+                    <p class="lead">
+                        I'm Keshav Pareek, a pre-final year B.Tech student at IIT Ropar majoring in Civil Engineering with a minor in Computer Science. I am passionate about building scalable software, solving algorithmic challenges, and creating impactful tech-driven solutions.
+                      </p>
+                      <p>
+                        I have hands-on experience with web development and real-time collaborative systems. From implementing data compression using Huffman coding in C++, to building interactive front-end games and chat tools using JavaScript and Node.js, I enjoy working across the full stack.
+                      </p>
+                      <p>
+                        Beyond coding, I'm actively engaged in competitive programming and constantly refining my problem-solving skills on platforms like Codeforces, Leetcode, and CodeChef. I'm also curious about the intersection of software engineering and real-world systems—whether through DevOps workflows or embedded devices like Arduino.
+                      </p>
+                      <p>
+                        I'm currently seeking opportunities to learn, contribute, and grow alongside teams building products that make a difference.
+                      </p>
+                    <div class="highlights mt-5">
+                        <div class="highlight-item" data-aos="fade-up" data-aos-delay="300">
+                            <div class="highlight-icon">
+                                <i class="fas fa-code"></i>
+                            </div>
+                            <div class="highlight-info">
+                                <h3>Competitive Programmer</h3>
+                                <p>1300+ Codeforces Rating</p>
+                            </div>
+                        </div>
+                        <div class="highlight-item" data-aos="fade-up" data-aos-delay="400">
+                            <div class="highlight-icon">
+                                <i class="fas fa-laptop-code"></i>
+                            </div>
+                            <div class="highlight-info">
+                                <h3>Web Developer</h3>
+                                <p>Creating interactive websites with modern technologies</p>
+                            </div>
+                        </div>
+                        <div class="highlight-item" data-aos="fade-up" data-aos-delay="500">
+                            <div class="highlight-icon">
+                                <i class="fas fa-brain"></i>
+                            </div>
+                            <div class="highlight-info">
+                                <h3>Problem Solver</h3>
+                                <p>245+ Problems Solved on LeetCode</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+               
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="py-5 bg-light">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up">Technical Skills</h2>
+            
+            <div class="row g-4">
+                <div class="col-md-4 mb-4" data-aos="fade-up" data-aos-delay="100">
+                    <div class="card h-100 skill-card">
+                        <div class="card-body">
+                            <div class="skill-icon">
+                                <i class="fas fa-code"></i>
+                            </div>
+                            <h3 class="card-title">Programming Languages</h3>
+                            <div class="skill-progress-container">
+                                <div class="skill-item">
+                                    <div class="skill-info">
+                                        <span>C/C++</span>
+                                        <span></span>
+                                    </div>
+                                    <div class="progress">
+                                        <div class="progress-bar" role="progressbar" style="width: 100%"></div>
+                                    </div>
+                                </div>
+                                <div class="skill-item">
+                                    <div class="skill-info">
+                                        <span>JavaScript</span>
+                                        <span></span>
+                                    </div>
+                                    <div class="progress">
+                                        <div class="progress-bar" role="progressbar" style="width: 100%"></div>
+                                    </div>
+                                </div>
+                                <div class="skill-item">
+                                    <div class="skill-info">
+                                        <span>Java</span>
+                                        <span></span>
+                                    </div>
+                                    <div class="progress">
+                                        <div class="progress-bar" role="progressbar" style="width: 100%"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-md-4 mb-4" data-aos="fade-up" data-aos-delay="200">
+                    <div class="card h-100 skill-card">
+                        <div class="card-body">
+                            <div class="skill-icon">
+                                <i class="fas fa-globe"></i>
+                            </div>
+                            <h3 class="card-title">Web Technologies</h3>
+                            <div class="skill-progress-container">
+                                <div class="skill-item">
+                                    <div class="skill-info">
+                                        <span>HTML/CSS</span>
+                                        <span></span>
+                                    </div>
+                                    <div class="progress">
+                                        <div class="progress-bar" role="progressbar" style="width: 100%"></div>
+                                    </div>
+                                </div>
+                                <div class="skill-item">
+                                    <div class="skill-info">
+                                        <span>Bootstrap</span>
+                                        <span></span>
+                                    </div>
+                                    <div class="progress">
+                                        <div class="progress-bar" role="progressbar" style="width: 100%"></div>
+                                    </div>
+                                </div>
+                                <div class="skill-item">
+                                    <div class="skill-info">
+                                        <span>Node.js/Express.js</span>
+                                        <span></span>
+                                    </div>
+                                    <div class="progress">
+                                        <div class="progress-bar" role="progressbar" style="width: 100%"></div>
+                                    </div>
+                                </div>
+                                <div class="skill-item">
+                                    <div class="skill-info">
+                                        <span>SQL</span>
+                                        <span></span>
+                                    </div>
+                                    <div class="progress">
+                                        <div class="progress-bar" role="progressbar" style="width: 100%"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-md-4 mb-4" data-aos="fade-up" data-aos-delay="300">
+                    <div class="card h-100 skill-card">
+                        <div class="card-body">
+                            <div class="skill-icon">
+                                <i class="fas fa-tools"></i>
+                            </div>
+                            <h3 class="card-title">Tools & DevOps</h3>
+                            <div class="skill-progress-container">
+                                <div class="skill-item">
+                                    <div class="skill-info">
+                                        <span>Git & GitHub</span>
+                                        <span></span>
+                                    </div>
+                                    <div class="progress">
+                                        <div class="progress-bar" role="progressbar" style="width: 100%"></div>
+                                    </div>
+                                </div>
+                                <div class="skill-item">
+                                    <div class="skill-info">
+                                        <span>VSCode</span>
+                                        <span></span>
+                                    </div>
+                                    <div class="progress">
+                                        <div class="progress-bar" role="progressbar" style="width: 100%"></div>
+                                    </div>
+                                </div>
+                                <div class="skill-item">
+                                    <div class="skill-info">
+                                        <span>Arduino</span>
+                                        <span></span>
+                                    </div>
+                                    <div class="progress">
+                                        <div class="progress-bar" role="progressbar" style="width: 100%"></div>
+                                    </div>
+                                </div>
+                                <div class="skill-item">
+                                    <div class="skill-info">
+                                        <span>MATLAB</span>
+                                        <span></span>
+                                    </div>
+                                    <div class="progress">
+                                        <div class="progress-bar" role="progressbar" style="width: 100%"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="py-5">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up">Projects</h2>
+            
+            <div class="row g-4">
+                <!-- Project 1 -->
+                <div class="col-lg-6 mb-4" data-aos="fade-up" data-aos-delay="100">
+                    <div class="card project-card h-100">
+                        <div class="card-body">
+                            <h3 class="card-title">Text File Compression</h3>
+                            <div class="project-date">June 2024</div>
+                            <div class="tech-stack">
+                                <span class="badge">C++</span>
+                                <span class="badge">Huffman Algorithm</span>
+                                <span class="badge">Data Structures</span>
+                            </div>
+                            <div class="project-description">
+                                <ul>
+                                    <li>Implemented Huffman Coding, a lossless data compression algorithm.</li>
+                                    <li>Reduced data size by assigning variable-length codes to input characters based on their frequencies.</li>
+                                    <li>Generated optimal codes for each character.</li>
+                                </ul>
+                            </div>
+                            <div class="project-links">
+                                <a href="https://github.com/Keshav83/Huffman-Coding-Project" target="_blank" class="project-link">
+                                    <i class="fab fa-github"></i> View on GitHub
+                                </a>
+                               
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Project 2 -->
+                <div class="col-lg-6 mb-4" data-aos="fade-up" data-aos-delay="200">
+                    <div class="card project-card h-100">
+                        <div class="card-body">
+                            <h3 class="card-title">Real-Time Collaborative Writing Tool</h3>
+                            <div class="project-date">April 2024</div>
+                            <div class="tech-stack">
+                                <span class="badge">HTML</span>
+                                <span class="badge">CSS</span>
+                                <span class="badge">JavaScript</span>
+                                <span class="badge">Node.js</span>
+                                <span class="badge">Express.js</span>
+                                <span class="badge">Socket.io</span>
+                            </div>
+                            <div class="project-description">
+                                <ul>
+                                    <li>Built a real-time collaborative text editor enabling multiple users to write and edit simultaneously.</li>
+                                    <li>Leveraged WebSocket communication with Socket.io for low-latency updates.</li>
+                                    <li>Gained expertise in real-time data synchronization and event-driven programming.</li>
+                                </ul>
+                            </div>
+                            <div class="project-links">
+                                <a href="https://github.com/Keshav83/Real-Time-Collabration-Project" target="_blank" class="project-link">
+                                    <i class="fab fa-github"></i> View on GitHub
+                                </a>
+                               
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Project 3 -->
+                <div class="col-lg-6 mb-4" data-aos="fade-up" data-aos-delay="300">
+                    <div class="card project-card h-100">
+                        <div class="card-body">
+                            <h3 class="card-title">Simons Game</h3>
+                            <div class="project-date">June 2024</div>
+                            <div class="tech-stack">
+                                <span class="badge">HTML</span>
+                                <span class="badge">CSS</span>
+                                <span class="badge">JavaScript</span>
+                                <span class="badge">jQuery</span>
+                            </div>
+                            <div class="project-description">
+                                <ul>
+                                    <li>Created a digital version of the classic Simon game implementing game mechanics, UI, and sound effects.</li>
+                                    <li>Utilized efficient algorithms for random sequence generation and pattern matching.</li>
+                                    <li>Developed robust error handling and user-friendly messages to guide players.</li>
+                                </ul>
+                            </div>
+                            <div class="project-links">
+                                <a href="https://github.com/Keshav83/Simons-Game" target="_blank" class="project-link" class="btn-p">
+                                    <i class="fab fa-github"></i> View on GitHub
+                                </a>
+                               
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Project 4 -->
+                <div class="col-lg-6 mb-4" data-aos="fade-up" data-aos-delay="400">
+                    <div class="card project-card h-100">
+                        <div class="card-body">
+                            <h3 class="card-title">Minor Projects</h3>
+                            <div class="tech-stack">
+                                <span class="badge">HTML</span>
+                                <span class="badge">CSS</span>
+                                <span class="badge">JavaScript</span>
+                                <span class="badge">Bootstrap</span>
+                            </div>
+                            <div class="project-description">
+                                <div class="mini-projects">
+                                    <div class="mini-project">
+                                        <h4>DogDate</h4>
+                                        <p>Created landing page of simple website using HTML, CSS, and Bootstrap.</p>
+                                        <a href="https://github.com/Keshav83/DogDate" target="_blank" class="mini-project-link" class="upar">
+                                            <i class="fab fa-github"></i> GitHub
+                                        </a>
+                                    </div>
+                                    <div class="mini-project">
+                                        <h4>Lisper</h4>
+                                        <p>Developed a web-based application that generates and displays unique secret messages.</p>
+                                        <a href="https://github.com/Keshav83/Lisper" target="_blank" class="mini-project-link" class="upar">
+                                            <i class="fab fa-github"></i> GitHub
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="py-5 bg-light">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up">Education</h2>
+            
+            <div class="timeline" data-aos="fade-up" data-aos-delay="200">
+                <!-- Education 1 -->
+                <div class="timeline-item">
+                    <div class="timeline-badge">
+                        <i class="fas fa-graduation-cap"></i>
+                    </div>
+                    <div class="timeline-panel">
+                        <div class="timeline-header">
+                            <h3 class="timeline-title">Bachelor of Technology</h3>
+                            <span class="timeline-period">2022 - 2026</span>
+                        </div>
+                        <div class="timeline-body">
+                            <div class="timeline-institution">Indian Institute of Technology, Ropar</div>
+                            <div class="timeline-grade">CGPA: 7.94 (Till 5th Sem)</div>
+                            <div class="timeline-courses">
+                                <h4>Key Courses:</h4>
+                                <p>Algorithm & Data Structure, Computer Architecture, Calculus, Vector Algebra, Differential Equation, Probability & Statistics</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Education 2 -->
+                <div class="timeline-item">
+                    <div class="timeline-badge">
+                        <i class="fas fa-school"></i>
+                    </div>
+                    <div class="timeline-panel">
+                        <div class="timeline-header">
+                            <h3 class="timeline-title">Senior Secondary</h3>
+                            <span class="timeline-period">2022</span>
+                        </div>
+                        <div class="timeline-body">
+                            <div class="timeline-institution">Central Board of Secondary Education</div>
+                            <div class="timeline-grade">Percentage: 94.6%</div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Education 3 -->
+                <div class="timeline-item">
+                    <div class="timeline-badge">
+                        <i class="fas fa-school"></i>
+                    </div>
+                    <div class="timeline-panel">
+                        <div class="timeline-header">
+                            <h3 class="timeline-title">Secondary</h3>
+                            <span class="timeline-period">2020</span>
+                        </div>
+                        <div class="timeline-body">
+                            <div class="timeline-institution">Board of Secondary Education Rajasthan</div>
+                            <div class="timeline-grade">Percentage: 89.33%</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Resume Section -->
+    <section id="resume" class="py-5">
+        <div class="container text-center">
+            <h2 class="section-title" data-aos="fade-up">Resume</h2>
+            <p class="lead mb-4" data-aos="fade-up" data-aos-delay="100">Download my complete resume to learn more about my educational background, skills, projects, and achievements.</p>
+            <a href="resume.pdf" download class="btn btn-primary btn-lg" data-aos="fade-up" data-aos-delay="200">
+                <i class="fas fa-download me-2"></i>Download Resume
+            </a>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-5 bg-dark">
+        <div class="container">
+            <h2 class="section-title text-white" data-aos="fade-up">Contact Me</h2>
+            <div class="row justify-content-center">
+                <div class="col-lg-8" data-aos="fade-up" data-aos-delay="200">
+                    <div class="contact-cards">
+                        <div class="contact-card">
+                            <div class="contact-icon">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <div class="contact-info">
+                                <h3>Email</h3>
+                                <a href="mailto:2022ceb1013@iitrpr.ac.in">2022ceb1013@iitrpr.ac.in</a>
+                            </div>
+                        </div>
+                        <div class="contact-card">
+                            <div class="contact-icon">
+                                <i class="fab fa-linkedin"></i>
+                            </div>
+                            <div class="contact-info">
+                                <h3>LinkedIn</h3>
+                                <a href="http://linkedin.com/in/keshav-pareek-1abb66259/" target="_blank">linkedin.com/in/Keshav-Pareek</a>
+                            </div>
+                        </div>
+                        <div class="contact-card">
+                            <div class="contact-icon">
+                                <i class="fab fa-github"></i>
+                            </div>
+                            <div class="contact-info">
+                                <h3>GitHub</h3>
+                                <a href="https://github.com/Keshav83" target="_blank">github.com/Keshav83</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Chatbot -->
+    <div class="chatbot-container" id="chatbotContainer">
+        <div class="chatbot-header">
+            <h3><i class="fas fa-robot me-2"></i>Portfolio Assistant</h3>
+            <button id="closeChatbot"><i class="fas fa-times"></i></button>
+        </div>
+        <div class="chatbot-messages" id="chatbotMessages">
+            <div class="message bot">
+                <div class="message-content">
+                    Hi there! I'm an AI assistant for this portfolio. Ask me anything about skills, projects, education, or experience!
+                </div>
+                <div class="message-time">Just now</div>
+            </div>
+        </div>
+        <div class="chatbot-input">
+            <input type="text" id="userInput" placeholder="Type your question here...">
+            <button id="sendMessage"><i class="fas fa-paper-plane"></i></button>
+        </div>
+    </div>
+    <button class="chatbot-toggle" id="toggleChatbot">
+        <i class="fas fa-comment"></i>
+    </button>
+
+    <!-- Footer -->
+    <footer class="footer py-4 bg-dark text-white text-center">
+        <div class="container">
+            <div class="footer-content">
+                <p class="mb-2">&copy; 2025 IIT Ropar Student Portfolio</p>
+                <div class="social-links">
+                    <a href="https://github.com/Keshav83" target="_blank"><i class="fab fa-github"></i></a>
+                    <a href="http://linkedin.com/in/keshav-pareek-1abb66259/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                    <a href="mailto:2022ceb1013@iitrpr.ac.in"><i class="fas fa-envelope"></i></a>
+                </div>
+                <div class="mt-3">
+                    <small class="text-muted">Created with <i class="fas fa-heart text-danger"></i> and deployed using Netlify</small>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- AOS Animation Library -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <!-- Typed.js -->
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <!-- Custom JS -->
+    <script src="script.js"></script>
+    <!-- Groq Chatbot Integration -->
+    <script src="chatbot.js"></script>
+    script type="module">
+    import { callGroqAPI } from './chatbot.js';
+    window.callGroqAPI = callGroqAPI;
+</script>
+</body>
+</html>
